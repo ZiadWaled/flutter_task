@@ -2,7 +2,7 @@
 // import 'package:challenge/core/constants/app_space.dart';
 // import 'package:challenge/core/ys_localizations/ys_localizations.dart';
 // import 'package:challenge/views/auth/rigester/provider_rigester_page.dart';
-// import 'package:challenge/views/auth/rigester/tourist_rigester_page.dart';
+// import 'package:challenge/views/auth/rigester/register_view.dart';
 // import 'package:challenge/views/widgets/back_button.dart';
 // import 'package:challenge/views/widgets/main_scaffold.dart';
 // import 'package:challenge/views/widgets/main_text.dart';

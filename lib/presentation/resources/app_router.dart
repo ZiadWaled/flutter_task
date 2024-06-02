@@ -1,6 +1,7 @@
 
 
 import 'package:flutter_task/presentation/auth/login/login_view.dart';
+import 'package:flutter_task/presentation/auth/rigester/register_view.dart';
 import 'package:flutter_task/presentation/splash/splash_view.dart';
 import 'package:go_router/go_router.dart';
 
@@ -22,11 +23,11 @@ abstract class AppRouter {
           return const LoginView();
         },
       ),
-      // GoRoute(
-      //   path: kRegisterView,
-      //   builder: (context, state)  {
-      //     return const RegisterView();},
-      // ),
+      GoRoute(
+        path: kRegisterView,
+        builder: (context, state)  {
+          return const RegisterView();},
+      ),
       // GoRoute(
       //   path: kForgotPasswordView,
       //   builder: (context, state) => const ForgotPasswordView(),
